@@ -1,0 +1,13 @@
+// Criar uma variável salario
+// Criar uma variável aumento (porcentagem)
+// Criar uma variável novo salario e calcular o salário com aumento
+// Mostrar no console o texto:
+// Salário antigo: VALOR e Novo salário: VALOR
+
+let aumento = 0.3
+let salario = 2100
+let salarion = salario + (salario * aumento)
+
+console.log('Salário antigo: ' + salario + ' Salário novo: ' + salarion)
+
+
