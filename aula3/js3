@@ -1,0 +1,66 @@
+/*
+
+IF ELSE
+const a = 10
+
+if(a == 10){   
+     console.log('Entrou no if')
+}   else if(a >= 10){
+     console.log('a < 10')
+}   else{
+     console.log('Entrou no else')
+}
+
+_________________________________________
+
+IF TERNÁRIO
+
+const id = 19
+const podeBbr = id > 18 ? true : false
+
+_________________________________________
+
+SWITCH
+
+const dia = "segunda"
+switch(dia){
+    case "segunda":
+        console.log('começo da semana')
+        break;
+    case "sexta":
+        console.log('final da semana')
+        break;
+    case "sabado":
+    case "domingo":
+        console.log('final de semana')
+        break;
+    default:
+        console.log('meio da semana')
+        break;
+}
+
+__________________________________________
+
+FOR
+
+const maiorIdade = true
+const possuiCarteiraTrabalho = true
+const atendeRequisitos = maiorIdade && possuiCarteiraTrabalho // AND
+
+const atendeParcialmenteRequisitos = maiorIdade || possuiCarteiraTrabalho // OR
+
+for (let index = 0; index < 10; index++) {
+    console.log(index)
+}
+
+___________________________________________
+
+WHILE
+
+const peso = 100
+while(peso > 0.8){
+    console.log(peso)
+}
+
+*/
+
